@@ -28,7 +28,13 @@
     border-radius: 5px;
     color: white;
     font-size: 15px;
+    border: 0;
+    border-bottom: 2px solid white;
     
+}
+
+.form input::placeholder {
+    color: rgb(235, 229, 229);
 }
 
 .form input:focus {
@@ -84,5 +90,29 @@
 .userdatah1 h1 {
     margin: 20px;
     font-size: 25px;
+    font-family: monospace;
 }
 
+button {
+    padding: 12px 25px;
+    border: 2px solid rgb(255, 0, 136);
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.delete:hover {
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    transition: 0.2s;
+}
+
+.edit:hover {
+    color: white;
+    background-color: rgb(255, 0, 136);
+    border: 2px solid rgb(255, 0, 136);
+    transition: 0.2s;
+}
